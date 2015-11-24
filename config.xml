@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="br.com.erlan.app" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+    <name>Device TCC_Erlan</name>
+    <description>
+        Exemplo Device
+    </description>
+    <author email="" href="">
+        EAS Team
+    </author>
+    <access origin="*"/>
+
+     <preference name="permissions" value="none" />
+    <preference name="orientation" value="default" />
+    <preference name="fullscreen" value="false" />
+    <preference name="android-minSdkVersion" value="7" />
+    <preference name="android-installLocation" value="auto" />
+
+    <gap:plugin name="org.apache.cordova.device" version="0.2.8" />
+
+</widget>
